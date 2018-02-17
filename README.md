@@ -4,7 +4,7 @@
 ## Demo
 |Tables         | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| ![](https://github.com/Turaiiao/CoolToast/blob/master/img/Screenshot_2018-02-17-13-25-49-350_com.coolapk.ma.png)      | right-aligned | $1600 |
+| ![](https://github.com/Turaiiao/CoolToast/blob/master/img/Screenshot_2018-02-17-13-25-49-350_com.coolapk.ma.png)      | ![](https://github.com/Turaiiao/CoolToast/blob/master/img/Screenshot_2018-02-17-14-08-55-654_cn.xyiio.coolt.png) | ![](https://github.com/Turaiiao/CoolToast/blob/master/img/Screenshot_2018-02-17-14-08-58-030_cn.xyiio.coolt.png) |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
