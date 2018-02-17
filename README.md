@@ -1,16 +1,27 @@
-#### CoolToast
+# ProgressText
+一个带动画效果的文字进度条    [Download demo apk](https://github.com/Turaiiao/ProgressText/blob/master/img/app-debug.apk?raw=true)
 
-## 安装
-Step 1. Add the JitPack repository to your build file  
-Add it in your root build.gradle at the end of repositories:  
+## Demo
+![](https://github.com/Turaiiao/ProgressText/blob/master/img/1518011152249mz2.gif)
 
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+## 引用
+#### 第一步
+添加依赖到项目根目录的 build.gradle
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://www.jitpack.io' }
 	}
-Step 2. Add the dependency  
-	dependencies {
-	        compile 'com.github.Turaiiao:CoolToast:0.0.1'
-	}
+}
+```
+#### 第二步
+包含此库到 ``app`` 级别的 build.gradle
+
+```
+dependencies {
+	compile 'com.github.Turaiiao:CoolToast:0.0.1'
+}
+```
+## 使用
