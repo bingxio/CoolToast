@@ -26,7 +26,7 @@ allprojects {
 
 ```
 dependencies {
-	compile 'com.github.Turaiiao:CoolToast:0.0.1'
+	compile 'com.github.Turaiiao:CoolToast:0.0.2'
 }
 ```
 ## 使用
@@ -41,6 +41,10 @@ val coolToast = CoolToast()
                 .short("阴影吐司")
                 .shadow(5f)
                 .show()
+```
+#### 快捷使用
+```
+CoolToast().quickShow(this, "这是一个快捷吐司")
 ```
 你可以把它添加到 Application，初始化一次，后面直接 show() 即可
 ##### 其他函数
