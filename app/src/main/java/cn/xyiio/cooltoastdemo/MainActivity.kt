@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     var button_1: Button? = null
     var button_2: Button? = null
     var button_3: Button? = null
+    var button_4: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,9 +20,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         button_1 = findViewById(R.id.btn_1)
         button_2 = findViewById(R.id.btn_2)
         button_3 = findViewById(R.id.btn_3)
+        button_4 = findViewById(R.id.btn_4)
         button_1?.setOnClickListener(this)
         button_2?.setOnClickListener(this)
         button_3?.setOnClickListener(this)
+        button_4?.setOnClickListener(this)
     }
 
     override fun onClick(p0: View) {
@@ -29,6 +32,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_1 -> one()
             R.id.btn_2 -> two()
             R.id.btn_3 -> three()
+            R.id.btn_4 -> four()
         }
     }
 
@@ -67,5 +71,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 .duration(3000)
                 .shadow(5f)
                 .show()
+    }
+
+    fun four() {
+        CoolToast().quickShow(this, "这是一个快捷吐司")
     }
 }

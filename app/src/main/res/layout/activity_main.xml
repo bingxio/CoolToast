@@ -33,4 +33,13 @@
         android:layout_marginBottom="15dp"
         android:text="大型吐司"/>
 
+    <Button
+        android:id="@+id/btn_4"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_3"
+        android:layout_marginBottom="15dp"
+        android:text="快捷吐司"/>
+
 </RelativeLayout>

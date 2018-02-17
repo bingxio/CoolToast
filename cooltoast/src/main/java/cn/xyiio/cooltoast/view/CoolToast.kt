@@ -98,6 +98,18 @@ class CoolToast {
         return this
     }
 
+    fun quickShow(context: Context, message: CharSequence) {
+        init(context)
+
+        toastText?.text = message
+        toast?.duration = Toast.LENGTH_SHORT
+        toastText?.textSize = DEFAULT_SIZE
+        toastView?.elevation = 3f
+        drawable?.cornerRadius = DEFAULT_RADIUS
+        drawable?.setColor(Color.parseColor("#e91e63"))
+        toast?.show()
+    }
+
     fun center(): CoolToast {
         toast?.setGravity(Gravity.CENTER, 0, 0)
         return this

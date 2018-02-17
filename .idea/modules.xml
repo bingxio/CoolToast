@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CoolToast.iml" filepath="$PROJECT_DIR$/CoolToast.iml" />
+      <module fileurl="file://E:\CoolToast\CoolToast.iml" filepath="E:\CoolToast\CoolToast.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\CoolToast\app\app.iml" filepath="E:\CoolToast\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cooltoast/cooltoast.iml" filepath="$PROJECT_DIR$/cooltoast/cooltoast.iml" />
+      <module fileurl="file://E:\CoolToast\cooltoast\cooltoast.iml" filepath="E:\CoolToast\cooltoast\cooltoast.iml" />
     </modules>
   </component>
 </project>
