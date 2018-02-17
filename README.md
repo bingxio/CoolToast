@@ -30,7 +30,15 @@ dependencies {
 }
 ```
 ## 使用
-#### Java
-```java
-
+#### Kotlin
+```kotlin
+val coolToast = CoolToast()
+        coolToast.init(this)
+        coolToast
+                .bgTextSize(CoolToast.DEFAULT_SIZE)
+                .bgRadius(CoolToast.DEFAULT_RADIUS)
+                .bgColor(CoolToast.COLOR_PINK_500)
+                .short("阴影吐司")
+                .shadow(5f)
+                .show()
 ```
