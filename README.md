@@ -44,7 +44,7 @@ val coolToast = CoolToast()
 ```
 #### 快捷使用
 ```
-CoolToast().quickShow(this, "这是一个快捷吐司")
+CoolToast().quickShow(this, "这是一个快捷吐司") // 颜色默认粉色
 ```
 你可以把它添加到 Application，初始化一次，后面直接 show() 即可
 ##### 其他函数
