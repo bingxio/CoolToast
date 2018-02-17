@@ -44,25 +44,25 @@ val coolToast = CoolToast()
 ```
 你可以把它添加到 Application，初始化一次，后面直接 show() 即可
 ##### 其他函数
-* fun init(mContext: Context)
+* fun init(mContext: Context)  
 **初始化一个 Toast**
-* fun bgColor(color: Int): CoolToast
+* fun bgColor(color: Int): CoolToast  
 **设置吐司背景颜色**
-* fun bgRadius(dp: Float): CoolToast
+* fun bgRadius(dp: Float): CoolToast  
 **设置吐司外边框圆角**
-* fun bgTextSize(sp: Float): CoolToast
+* fun bgTextSize(sp: Float): CoolToast  
 **设置吐司字体大小**
-* fun short(message: CharSequence): CoolToast
+* fun short(message: CharSequence): CoolToast  
 **显示安卓默认短吐司**
-* fun long(message: CharSequence): CoolToast
+* fun long(message: CharSequence): CoolToast  
 **显示安卓默认长吐司**
-* fun center(): CoolToast
+* fun center(): CoolToast  
 **设置是否居中显示**
-* fun duration(duration: Int): CoolToast
+* fun duration(duration: Int): CoolToast  
 **设置显示时长**
-* fun shadow(dp: Float): CoolToast
+* fun shadow(dp: Float): CoolToast  
 **设置它的阴影**
-* fun show()
+* fun show()  
 **显示吐司**
 
 ##### 可引用的静态常量
